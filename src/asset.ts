@@ -29,7 +29,7 @@ export default class Asset {
     }
 
     protected getRandomOne(images: string[] | vscode.Uri[]): string | vscode.Uri {
-        const n = Math.floor(Math.random() * images.length + 1) - 1;
+        const n = 0; //Math.floor(Math.random() * images.length + 1) - 1;
         return images[n];
     }
 

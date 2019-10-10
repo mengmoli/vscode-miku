@@ -42,17 +42,17 @@
             "type": "object",
             "title": "miku",
             "properties": {
-                "ycy.reminderViewIntervalInMinutes": {
+                "miku.reminderViewIntervalInMinutes": {
                     "type": "number",
                     "default": 60,
                     "description": "展示提醒页面的时间间隔（分钟）"
                 },
-                "ycy.title": {
+                "miku.title": {
                     "type": "string",
                     "default": "写代码不再孤单，miku陪你一块脑阔疼~",
                     "description": "页面内展示文字"
                 },
-                "ycy.type": {
+                "miku.type": {
                     "type": "string",
                     "default": "default",
                     "description": "类型：default:默认图；url：网络图"
