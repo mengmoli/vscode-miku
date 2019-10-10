@@ -14,12 +14,9 @@
     "keywords": [
         "miku",
         "初音未来",
-        "鼓励"
+        "鼓励",
+        "鼓励师"
     ],
-    "bugs": {
-        "url": "https://github.com/formulahendry/vscode-ycy/issues",
-        "email": "formulahendry@gmail.com"
-    },
     "homepage": "https://github.com/mengmoli/vscode-miku/blob/master/README.md",
     "repository": {
         "type": "git",
@@ -34,7 +31,7 @@
         "commands": [
             {
                 "command": "miku.showReminderView",
-                "title": "打开提醒页面",
+                "title": "世界第一公主殿下",
                 "category": "miku"
             }
         ],
@@ -49,13 +46,19 @@
                 },
                 "miku.title": {
                     "type": "string",
-                    "default": "写代码不再孤单，miku陪你一块脑阔疼~",
+                    "default": "在吗，多喝热水~",
                     "description": "页面内展示文字"
                 },
                 "miku.type": {
                     "type": "string",
                     "default": "default",
                     "description": "类型：default:默认图；url：网络图"
+                },
+                "miku.customImages": {
+                    "type": "array",
+                    "default": [
+                    ],
+                    "description": "用户设置图片地址"
                 }
             }
         }
