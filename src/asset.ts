@@ -52,7 +52,7 @@ export default class Asset {
     }
 
     protected getDefaultYcyImagePath() {
-        return path.join(this.context.extensionPath, 'images/ycy');
+        return path.join(this.context.extensionPath, 'images/miku');
     }
 
 

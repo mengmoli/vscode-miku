@@ -1,10 +1,10 @@
 {
-    "name": "ycy",
-    "displayName": "超越鼓励师",
-    "description": "写代码不再孤单，有杨超越与你同在",
+    "name": "miku",
+    "displayName": "miku鼓励师",
+    "description": "写代码不再孤单，miku陪你一块脑阔疼",
     "version": "0.1.2",
-    "publisher": "formulahendry",
-    "icon": "logo.jpg",
+    "publisher": "mengmoli",
+    "icon": "logo.png",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -12,35 +12,35 @@
         "Other"
     ],
     "keywords": [
-        "杨超越",
-        "提醒",
+        "miku",
+        "初音未来",
         "鼓励"
     ],
     "bugs": {
         "url": "https://github.com/formulahendry/vscode-ycy/issues",
         "email": "formulahendry@gmail.com"
     },
-    "homepage": "https://github.com/formulahendry/vscode-ycy/blob/master/README.md",
+    "homepage": "https://github.com/mengmoli/vscode-miku/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/formulahendry/vscode-ycy.git"
+        "url": "https://github.com/mengmoli/vscode-miku.git"
     },
     "activationEvents": [
-        "onCommand:ycy.showReminderView",
+        "onCommand:miku.showReminderView",
         "*"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "ycy.showReminderView",
+                "command": "miku.showReminderView",
                 "title": "打开提醒页面",
-                "category": "ycy"
+                "category": "miku"
             }
         ],
         "configuration": {
             "type": "object",
-            "title": "杨超越",
+            "title": "miku",
             "properties": {
                 "ycy.reminderViewIntervalInMinutes": {
                     "type": "number",
@@ -49,20 +49,13 @@
                 },
                 "ycy.title": {
                     "type": "string",
-                    "default": "小哥哥，小哥哥，代码写久了，该休息啦~",
+                    "default": "写代码不再孤单，miku陪你一块脑阔疼~",
                     "description": "页面内展示文字"
                 },
                 "ycy.type": {
                     "type": "string",
                     "default": "default",
                     "description": "类型：default:默认图；url：网络图"
-                },
-                "ycy.customImages": {
-                    "type": "array",
-                    "default": [
-                        "http://b-ssl.duitang.com/uploads/item/201806/04/20180604090459_gqqjo.jpg"
-                    ],
-                    "description": "用户设置图片地址"
                 }
             }
         }
