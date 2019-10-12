@@ -2,7 +2,7 @@
     "name": "miku",
     "displayName": "miku鼓励师",
     "description": "写代码不再孤单，miku陪你一块脑阔疼",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "mengmoli",
     "icon": "logo.png",
     "engines": {
@@ -56,8 +56,7 @@
                 },
                 "miku.customImages": {
                     "type": "array",
-                    "default": [
-                    ],
+                    "default": [],
                     "description": "用户设置图片地址"
                 }
             }
